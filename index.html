@@ -83,5 +83,35 @@
         window.scrollTo(0, document.body.scrollHeight);
       });
     </script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+
+      import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js';
+
+      // TODO: Add SDKs for Firebase products that you want to use
+
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+
+      const firebaseConfig = {
+        apiKey: 'AIzaSyB4NYtrQMYIvMQ9DPHcnr_utsasffJWGKs',
+
+        authDomain: 'chat-web-socket-c517d.firebaseapp.com',
+
+        projectId: 'chat-web-socket-c517d',
+
+        storageBucket: 'chat-web-socket-c517d.appspot.com',
+
+        messagingSenderId: '603128436267',
+
+        appId: '1:603128436267:web:e78eca97b9e723fdf83c6e',
+      };
+
+      // Initialize Firebase
+
+      const app = initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
